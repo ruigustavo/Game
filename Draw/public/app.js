@@ -28,6 +28,8 @@ app.route('/draw')
         console.log("hello:"+String(req.query));
     		//res.sendFile(__dirname+'/clientG.html');
     	});
+
+      
 // array of all lines drawn
 var line_history = [];
 
