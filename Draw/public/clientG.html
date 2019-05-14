@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>TestingCanvas</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" />
+      <script src="socket.io/socket.io.js"></script>
+      <script src="clientG.js"></script>
+   </head>
+   <body>
+      <canvas  id="guessing" width =500 height=500></canvas>
+
+        <form action="/word" method="GET" target="_black">
+          Word: <input type="text" name="guess"><br>
+          <input type="submit" value="Submit">
+      </form>
+   </body>
+</html>
